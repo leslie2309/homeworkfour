@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Sansita', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: black;
+}
+
+.balloon {
+  font-size: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@keyframes popOut {
+  from {
+    color: #1a1c1d;
+  }
+  to {
+    color: #fff;
+  }
+}
